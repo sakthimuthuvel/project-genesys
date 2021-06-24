@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+    <title>User Management Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<form class="form">
+			<h1>User Management Portal</h1>
+		</form>
+		
+		<form id="listuser" class="form">
+			<h2>List User Section</h2>			
+    		<div class="form-field">
+			  <input type="submit" value="List Users">
+			</div>
+
+		</form>
+
+		<form id="searchuser" class="form">
+			<h2>Search User Section</h2>
+			<div class="form-field">
+                <label for="Email">Enter Email ID to Search:</label>
+                <input type="text" name="searchbyemail" id="searchbyemail" autocomplete="off">
+                <small></small>
+            </div>
+			<div class="form-field">
+                <input type="submit" value="Search User" />			
+            </div>
+
+		</form>
+
+
+
+		<form id="updateuser" class="form">
+			<h2>User Details Update Section</h2>
+			<div class="form-field">
+                <label for="Email">Enter a Valid Email to update user details:</label>
+                <input type="text" name="updateuserbyemail" id="updateuserbyemail" autocomplete="off">
+                <small></small>
+            </div>
+			<div class="form-field">
+                <label for="Name">Update Name to:</label>
+                <input type="text" name="updatename" id="updatename" autocomplete="off">
+                <small></small>
+            </div>
+			<div class="form-field">
+                <label for="Password">Update Password to:</label>
+                <input type="password" name="updatepassword" id="updatepassword" autocomplete="off">
+                <small></small>
+            </div>
+			<div class="form-field">
+                <input type="submit" value="Update User" />			
+            </div>
+
+		</form>
+
+		<form id="deleteuser" class="form">
+			<h2>Delete User Section</h2>
+			<div class="form-field">
+				<label for="Email">Enter Email ID to Delete User:</label>
+				<input type="text" name="deletebyemail" id="deletebyemail" autocomplete="off">
+				<small></small>
+			</div>
+			<div class="form-field">
+              <input type="submit" value="Delete User" />			
+			</div>
+		</form>
+
+		<form id="createuser" class="form">
+			<h2>Create User Section</h2>
+			<div class="form-field">
+				<label>Create User using below Registration Link! </label>
+    			<a href="register.html">Create User</a>
+			</div>
+
+		</form>
+
+		<form class="form">
+			<div class="form-field">
+				<p><STRONG>Wish to Logoff? </STRONG><a href="login.html">Click here to Sign out!!!</a>.</p>
+			</div>
+		</form>
+
+
+	<script src="js/adminlogin.js"></script>
+</body>
+</html>
+
+
+
+
